@@ -14,3 +14,16 @@ Tags: demo, white, one-column, two-columns, right-sidebar, fluid-layout, respons
 Text Domain: drop 
 your comment here
 */
+
+contact {
+    color: #292929 !important;
+}
+.contact a {
+    color: #3B3B3B !important;
+    font-weight: 600 !important;
+    border-bottom: 2px solid #3B3B3B;
+}
+
+.atom-portfolio-filter a { text-transform: uppercase !important; }
+
+h1.title { line-height: 0.9em; font-family: 'Playfair Display'; font-weight: 900; }
