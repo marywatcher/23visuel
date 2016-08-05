@@ -15,6 +15,9 @@ Text Domain: drop
 your comment here
 */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 contact {
     color: #292929 !important;
 }
@@ -27,3 +30,8 @@ contact {
 .atom-portfolio-filter a { text-transform: uppercase !important; }
 
 h1.title { line-height: 0.9em; font-family: 'Playfair Display'; font-weight: 900; }
+
+.atom-work-item.connect .desc { top: 51% !important; left: 50% !important; text-align: center !important; }
+.hover-one .atom-work-item.connect a:after { background-color: #F7F7F7 !important; }
+.hover-one .atom-work-item.connect h5,
+.hover-one .atom-work-item.connect p {color: #FF005E !important; text-transform: lowercase; }
