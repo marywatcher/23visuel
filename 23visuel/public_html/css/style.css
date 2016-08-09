@@ -35,3 +35,9 @@ h1.title { line-height: 0.9em; font-family: 'Playfair Display'; font-weight: 900
 .hover-one .atom-work-item.connect a:after { background-color: #F7F7F7 !important; }
 .hover-one .atom-work-item.connect h5,
 .hover-one .atom-work-item.connect p {color: #FF005E !important; text-transform: lowercase; }
+
+.atom-work-item .desc p { text-transform: none !important; }
+
+h4 { color: #FF005E; font: 900 18px 'Open Sans'; text-transform: uppercase; letter-spacing: 1px; }
+
+.small-section.amazon-chipin {padding-top: 0 !important;}
