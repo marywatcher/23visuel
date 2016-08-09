@@ -113,24 +113,30 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h4>Problem</h4>
-                        The idea of Wedding/Baby showers is great until you come to realize that the gifts you get are typically on the cheaper side.<br /><br />
-                        <strong>Why is that and how to fix it?</strong><br />
+                        The idea of Wedding/Baby showers is great until you realize that most of the gifts bought on registries are on the cheaper side.<br /><br />
+                        <strong>Why is that and how can we fix it?</strong><br />
                         What I realized is that the conventional gift giving institute has the following rules:<br />
                         <ol>
                             <li>stay within the limit of gift budget</li>
                             <li>it's OK to go over the budget for a family member</li>
                             <li>contribute and buy an expensive gift with friends.</li>
                         </ol>
-                        Based on this assumptions I started a UX project to learn more about gift registries and to build a "chip-in" feature. I chose Amazon.com platform as a test ground for my MVP.<br /><br />
+                        These assumptions were my foundation for the "chip-in" feature project that I have worked on. I chose <a href="http://amazon.com" target="_blank">Amazon</a> platform as a test ground for my MVP.<br /><br />
                         <h4>Competitive analysis</h4>
-                        I started with a competitive analysis to see whether there are similar solutions in the market. First, I would like to say that in an offline world the the act of contributing towards a gift has always been there and it definitely competes with my solution, one pitfall though, is that contributors are all from same social circle. In an online arena contributors don't need to know each other and that increases the circle.<br />
-                        A few services exist but either they're designed as a different product, or they charge fees, or business model doesn't make it competitive.
+                        The market of contributing for gifts existed forever, and this by itself is a strong competition. One pitfall to it is that in order to contribute, you have to know people who are contributing, too. An online version removes the requirement for people to know each other, this way the number of contributors potentially increases.<br /><br />
+                        The choice of Amazon was easy:
+                        <ol>
+                            <li>selection of product categories makes it easy to use for all kinds of gift registries,</li>
+                            <li>there are no service fees, and</li>
+                            <li>Amazon gift registries are used rarely (per my findings), which, I believe makes Amazon more open to find it's niche.</li>
+                        </ol>
                     </div>
                     <div class="col-md-4">
                         <ul class="project-info list-unstyled">
                             <li>Team: <span>Meri Harutyunyan</span></li>
                             <li>Functions: <span>Concept, User Research,<br />User Flow &amp; Wireframes</span></li>
                             <li>Tools: <span>UXpin, Google Draw,<br />Illustrator, Photoshop</span></li>
+                            <li>Delivered: <span>2016</span></li>
                         </ul>
                         <!--<a href="../../contact.html" class="btn btn-dark btn-sm">Buy me <span>&#x2192;</span></a>-->
                     </div>
@@ -144,16 +150,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/2.jpg"></img>
-                        asd
-                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/1.jpg"></img>
-                        asd
-                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/3.jpg"></img>
-                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/4.jpg"></img>
-                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/5.jpg"></img>
-                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/6.jpg"></img>
                     </div>
                 </div>
-                
             </div>
         </div>
         <!--/ END static photos -->
@@ -162,9 +160,88 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <h4>User Research</h4>
+                        I came up with hypotheses about users, and created an interview plan. Next couple of weeks I spent interviewing and learnt that some of my assumptions were 180 degrees wrong.<br /><br />
+                        As a result, 3 personas were created, with a primary one being an immigrant IT worker. I had some very interesting findings that helped me design my feature with specific solutions for every persona.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ END section -->
+        <!-- START static photos -->
+        <div class="small-section amazon-chipin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/1.jpg"></img>
+                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/3.jpg"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ END static photos -->
+        <!-- START section -->
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4>Brainstorming, Affinity Diagram, User Flow, etc.</h4>
+                        Next thing was to work on IA for the feature, which wasn't much considering the size of the project.<br />
+                        I created affinity diagram to break down content into pages, which made me realize that my approach should be breaking down actions and mini-features from the affinity diagram by the user type.<br />
+                        I used venn diagram for that and a lot of initial "pages" from affinity diagram immediately turned into sub-content of existing pages in Amazon registry platform.<br /><br />
+                        An algorithmic view of user flow was created then, which took care of both of the flows: for gift registry owner, and for gift registry buyer.<br />
+                        It also took care of the scenario, when a gift doesn't reach it's goal and the raised money needs to be withdrawn.<sup>*</sup><br /><br />
+                        <i><sup>*</sup> the user flow is designed to support the interaction with the feature only. It doesn't account for all the other actions supported by existing flows.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ END section -->
+        <!-- START static photos -->
+        <div class="small-section amazon-chipin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/5.jpg"></img>
+                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/4.jpg"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ END static photos -->
+        <!-- START section -->
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4>Prototypes</h4>
+                        Lo-fi prototypes were created using <a href="http://www.uxpin.com" target="_blank">UXpin</a>. Iterations were done in Photoshop with lots of changes in hi-fi mockups.<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ END section -->
+        <!-- START static photos -->
+        <div class="small-section amazon-chipin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="single-potfolio-image img-responsive mb-50" src="../../images/portfolio/amazon-chipin/6.jpg"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ END static photos -->
+        <!-- START section -->
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4>Constraints</h4>
+                        My solution doesn't have answers to couple of questions:<br />
+                        - How do we manage price variations of an item during chipping-in?<br />
+                        - What will happen if an item is out of stock by the time funds have been raised for purchase?<br /><br />
+                        Though no work has been done to answer these questions, I gave them thought and happy to discuss more.
                     </div>
                 </div>
             </div>

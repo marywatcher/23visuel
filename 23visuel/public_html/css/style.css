@@ -17,6 +17,7 @@ your comment here
 
 body {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.8em;
 }
 contact {
     color: #292929 !important;
@@ -40,4 +41,10 @@ h1.title { line-height: 0.9em; font-family: 'Playfair Display'; font-weight: 900
 
 h4 { color: #FF005E; font: 900 18px 'Open Sans'; text-transform: uppercase; letter-spacing: 1px; }
 
-.small-section.amazon-chipin {padding-top: 0 !important;}
+.small-section.amazon-chipin {padding-top: 20px !important; padding-bottom: 30px !important;}
+
+ol, ul { line-height: 2.5em;}
+
+.list-unstyled.project-info { line-height: 1.6em;}
+.project-info li { padding-bottom: 0 !important;}
+.title-desc { padding-top: 10px;}
