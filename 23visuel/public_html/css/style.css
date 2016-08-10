@@ -48,3 +48,6 @@ ol, ul { line-height: 2.5em;}
 .list-unstyled.project-info { line-height: 1.6em;}
 .project-info li { padding-bottom: 0 !important;}
 .title-desc { padding-top: 10px;}
+
+.desktop-switch { display: block; }
+.mobile-switch { display: none; }
