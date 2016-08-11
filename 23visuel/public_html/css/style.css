@@ -51,3 +51,29 @@ ol, ul { line-height: 2.5em;}
 
 .desktop-switch { display: block; }
 .mobile-switch { display: none; }
+
+.small-section.design-process, .small-section.about-me { padding-top: 0 !important; padding-bottom: 0 !important; }
+.small-section.about-me .desktop-switch { margin-bottom: 60px; }
+
+blockquote {
+    border-left: 10px solid #FF005E;
+    quotes: "\201C""\201D""\2018""\2019";
+    background: #FFF;
+    padding: 22px;
+    font-style:italic;
+}
+blockquote:before {
+  color: #FF005E;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.2em;
+  vertical-align: -0.4em;
+  font-family: 'Playfair Display';
+}
+blockquote p {
+  text-indent: 2.3em;
+  margin-top: 10px;
+}
+
+i.small { font-size: 0.85em; }
