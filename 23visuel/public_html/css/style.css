@@ -55,6 +55,8 @@ ol, ul { line-height: 2.5em;}
 .small-section.design-process, .small-section.about-me { padding-top: 0 !important; padding-bottom: 0 !important; }
 .small-section.about-me .desktop-switch { margin-bottom: 60px; }
 
+.page-title.about-me { padding-bottom: 35px; }
+
 blockquote {
     border-left: 10px solid #FF005E;
     quotes: "\201C""\201D""\2018""\2019";
