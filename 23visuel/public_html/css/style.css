@@ -53,7 +53,7 @@ ol, ul { line-height: 2.5em;}
 .mobile-switch { display: none; }
 
 .small-section.design-process, .small-section.about-me { padding-top: 0 !important; padding-bottom: 0 !important; }
-.small-section.about-me .desktop-switch { margin-bottom: 60px; }
+.small-section.about-me .desktop-switch { margin-bottom: 30px; }
 
 .page-title.about-me { padding-bottom: 35px; }
 
