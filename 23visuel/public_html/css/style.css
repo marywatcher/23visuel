@@ -79,3 +79,5 @@ blockquote p {
 }
 
 i.small { font-size: 0.85em; }
+
+.btn.portfolio-back span {margin-left: 0; margin-right: 10px;}
